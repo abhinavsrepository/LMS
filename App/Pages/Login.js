@@ -6,7 +6,7 @@ export default function Login() {
     <View>
       
       <Image source ={require('./../Assets/Images/login.jpg')}/>
-    <Text>Welcome to Abhinav's Academy</Text>
+    <Text style={{fontSize:35,textAlign:'center',fontWeight:'bold'}}>Welcome to Abhinav's Academy</Text>
     </View>
   )
 }
