@@ -4,7 +4,7 @@ import React from 'react'
 export default function Login() {
   return (
     <View>
-      <Image source ={require('./../Assets')}/>
+      <Image source ={require('./../Assets/Images/login.jpg')}/>
     </View>
   )
 }
