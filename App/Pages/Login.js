@@ -4,7 +4,7 @@ import React from "react";
 export default function Login() {
   return (
     <View>
-      <Image source={require("./../Assets/Images/login1.png")} />
+      <Image source={require("./../Assets/Images/loginlogo.png")} />
       <View style={styles.container}>
         <Text style={styles.welcomeText}>Welcome to Abhinav's Academy</Text>
       </View>
@@ -13,11 +13,11 @@ export default function Login() {
 }
 const styles = StyleSheet.create({
   container: {
-    paddingTop: 40,
+    paddingTop: 30,
     marginTop: -25,
     backgroundColor: "#fff",
     borderTopRightRadius: 30,
-    borderBottomStartRadius: 30,
+    borderBottomStartRadius: 40,
   },
   welcomeText: { fontSize: 35, textAlign: "center", fontWeight: "bold" },
 });
