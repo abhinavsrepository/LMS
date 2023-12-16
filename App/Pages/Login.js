@@ -7,6 +7,8 @@ export default function Login() {
       <Image source={require("./../Assets/Images/loginlogo.png")} />
       <View style={styles.container}>
         <Text style={styles.welcomeText}>Welcome to Abhinav's Academy</Text>
+        <Text style={{textAlign:'center',marginTop:40,fontSize:20}}>Login/Signin</Text>
+      <View> <Text>Sign in with Google </Text></View>
       </View>
     </View>
   );
