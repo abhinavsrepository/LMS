@@ -8,7 +8,7 @@ export default function Login() {
       <View style={styles.container}>
         <Text style={styles.welcomeText}>Welcome to Abhinav's Academy</Text>
         <Text style={{textAlign:'center',marginTop:40,fontSize:20}}>Login/Signin</Text>
-      <View> <Text>Sign in with Google </Text></View>
+      <View style={styles.button}> <Text>Sign in with Google </Text></View>
       </View>
     </View>
   );
@@ -22,4 +22,8 @@ const styles = StyleSheet.create({
     borderBottomStartRadius: 40,
   },
   welcomeText: { fontSize: 35, textAlign: "center", fontWeight: "bold" },
+  button:{
+    backgroundColor:Colors.primary
+
+  }
 });
