@@ -12,7 +12,7 @@ export default function Login() {
           Login/Signin
         </Text>
         <View style={styles.button}>
-        <Ionicons name="logo-google" size={24} color="black" />
+        <Ionicons name="logo-google" size={24} color="white" />
           <Text>Sign in with Google </Text>
         </View>
       </View>
