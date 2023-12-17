@@ -1,4 +1,4 @@
-import { View, Text, Image, StyleSheet } from "react-native";
+import { View, Text, Image, StyleSheet, Colors } from "react-native";
 import React from "react";
 import { Ionicons } from "@expo/vector-icons";
 
@@ -12,7 +12,7 @@ export default function Login() {
           Login/Signin
         </Text>
         <View style={styles.button}>
-        <Ionicons name="logo-google" size={24} color="white" />
+          <Ionicons name="logo-google" size={24} color="white" />
           <Text>Sign in with Google </Text>
         </View>
       </View>
