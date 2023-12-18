@@ -10,11 +10,12 @@ export default function Login() {
       <View style={styles.container}>
         <Text style={styles.welcomeText}>Welcome to Abhinav's Academy</Text>
         <Text style={{ textAlign: "center", marginTop: 40, fontSize: 20 }}>
-          Login/Signin
+          Login/Signup
+        
         </Text>
         <View style={styles.button}>
-          <Ionicons name="logo-google" size={24} color="white" />
-          <Text>Sign in with Google </Text>
+          <Ionicons name="logo-google" size={24} color="white" style={{marginRight:10}} />
+          <Text style={{color:Color.white}}>Sign in with Google </Text>
         </View>
       </View>
     </View>
@@ -33,5 +34,10 @@ const styles = StyleSheet.create({
     backgroundColor: Color.primary,
     padding: 10,
     margin: 30,
+    display:'flex',
+    flexDirection: 'row',
+    justifyContent:'center',
+    alignItems:'center',
+    borderRadius:10
   },
 });
