@@ -1,5 +1,6 @@
 import { View, Text, Image, StyleSheet } from "react-native";
 import React from "react";
+import Color from "../Shared/Color";
 import { Ionicons } from "@expo/vector-icons";
 
 export default function Login() {
@@ -29,7 +30,7 @@ const styles = StyleSheet.create({
   },
   welcomeText: { fontSize: 35, textAlign: "center", fontWeight: "bold" },
   button: {
-    backgroundColor: Colors.primary,
+    backgroundColor: Color.primary,
     padding: 10,
     margin: 30,
   },
